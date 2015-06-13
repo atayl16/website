@@ -1,5 +1,6 @@
 # website
 My main website that will be uploaded on emily.technology
+<<<<<<< HEAD
 
 # Foundation libsass template
 
@@ -30,3 +31,5 @@ And you're set!
 
   * `scss/_settings.scss`: Foundation configuration settings go in here
   * `scss/app.scss`: Application styles go here
+=======
+>>>>>>> 1ee319c56fae6cfe3b6d5b62d65db98854f8171d
