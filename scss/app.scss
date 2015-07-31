@@ -38,3 +38,16 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+body {
+background-color: #fceaeb;
+}
+.urlImg { 
+	width: 100px; 
+	display:block; 
+	background-image: url('Homepage-01.jpg'); 
+	} 
+
+.urlImg:hover { 
+	background-image: url('HoverEnter-01.jpg'); 
+	} 
