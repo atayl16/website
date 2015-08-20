@@ -40,23 +40,72 @@
 //   "foundation/components/visibility";
 
 body {
-background-color: #FBEAE9;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+  font-weight: 200;
+  font-size: 20px;
 }
 
-html {
-	background: url(bg.png) no-repeat center center fixed; 
+.parallax-nav {
+	background-color: #ECBDBD;
+	height: 620px;
+	width: 100%;
+	height: 50px;
+	background-repeat: no-repeat;
+	position: fixed;
+}
+
+.parallax-background {
+  height: 600px;
+  background-image: url("Seamless-Polka-Dot-Pattern.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  position: fixed;
+  width: 100%;
+  top: 50px;
+}
+
+.parallax-indegogo {
+  background-color: #EB1378;
+  height: 600px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  top: 600px;
+}
+
+.intro-text {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.parallax-content {
+  max-width: 100%;
+  position: relative;
+  top: 550px;
+  padding: 0px;
+  font-size: 20px;
+  background-color: #fff;
+}
+.parallax-footer {
+  max-width: 100%;
+  position: relative;
+  top: 1050px;
+  padding: 50px;
+  font-size: 20px;
+  background-color: #D8D8D7;
+}
+
+@media only screen and (max-width: 768px) {
+  .row { 
+    overflow: hidden;
+    padding: 0 20px;
   }
-  
- #bg {
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-	
-  /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
 }
