@@ -47,64 +47,6 @@ body {
   font-size: 20px;
 }
 
-.parallax-nav {
-	background-color: #ECBDBD;
-	height: 620px;
-	width: 100%;
-	height: 50px;
-	background-repeat: no-repeat;
-	position: fixed;
-}
-
-.parallax-background {
-  height: 600px;
-  background-image: url("Seamless-Polka-Dot-Pattern.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  position: fixed;
-  width: 100%;
-  top: 50px;
-}
-
-.parallax-indegogo {
-  background-color: #EB1378;
-  height: 600px;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  position: relative;
-  width: 100%;
-  top: 600px;
-}
-
-.intro-text {
-  font-size: 50px;
-  color: #fff;
-  text-align: center;
-  margin-top: 15%;
-}
-
-.parallax-content {
-  max-width: 100%;
-  position: relative;
-  top: 550px;
-  padding: 0px;
-  font-size: 20px;
-  background-color: #fff;
-}
-.parallax-footer {
-  max-width: 100%;
-  position: relative;
-  top: 1050px;
-  padding: 50px;
-  font-size: 20px;
-  background-color: #D8D8D7;
-}
-
 @media only screen and (max-width: 768px) {
   .row { 
     overflow: hidden;
@@ -133,7 +75,7 @@ body {
     transform: translateY(-50%);
   }
   h1 {
-    color: #fff;
+    color: #FFF;
     font-size: 1.5rem;
     line-height: 1.5em;
     letter-spacing: -0.025em;
@@ -217,7 +159,7 @@ body {
     text-transform: uppercase;
   }
   p {
-    color: #717171;
+    color: #000000;
     font-size: 16px;
     padding-top: 10px;
   }
@@ -314,7 +256,7 @@ $text-color: #fff;
 // footer CSS
 
 .footer {
-  background-color: #ECBDBD;
+  background-color: #ea417c;
   padding: 2rem 4rem;
   text-align: center;
   color: $text-color;
