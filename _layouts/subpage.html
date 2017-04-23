@@ -1,0 +1,143 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.name }}</title>
+    <meta name="description" content="{{ page.title }} - {{ site.name }}" />
+    <meta name="keywords" content="{{ page.keywords }}, {{ site.keywords }}" />
+    <!-- Google fonts https://www.google.com/fonts
+    ================================================== -->
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700,800|Raleway:400,200,700" rel="stylesheet" type="text/css">
+    <!-- Fount Awesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/app.css">
+
+    <!-- favicon
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Open Graph: https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/
+    Twitter: https://dev.twitter.com/docs/cards/types/summary-card
+    ============================== -->
+	<link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+
+    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="og:site_name" content="{{ site.name }}"/>
+    <meta property="og:url" content="{{ site.url }}"/>
+    <meta property="og:description" content="{{ page.description }}"/>
+    <meta property="og:image" content="{{ page.imageurl }}"/>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@{{ site.twitter }}">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ page.description }}">
+    <meta name="twitter:image" content="{{ page.imageurl }}">
+  
+  </head>        
+  <body>
+<section class="hero">
+  <div class="row intro">
+    <div class="small-centered medium-uncentered medium-6 large-7 columns">
+      <h1>Emily Ann Ramos</h1>
+      <p>My life’s work is to enable exceptional people and great institutions to change the world. I am a technology enthusiast and an eternal optimist. As a proud resident of Silicon Valley, the hub of out-of-the-box thinking and innovation, I have a strong technical background and the ability to adapt quickly to new strategies, products, and platforms. </p>
+    </div>
+    <div class="small-centered medium-uncentered medium-6 large-5 columns">
+      <div class="tech-img"></div>
+    </div>
+  </div>
+</section>
+<!---
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+
+        <div class="off-canvas position-right" id="offCanvasRight" data-off-canvas data-position="right">
+         <ul class="vertical menu">
+            {% include nav.html %}
+          </ul>
+        </div>
+
+        <div class="off-canvas-content" data-off-canvas-content>
+
+          <div class="title-bar">
+            <div class="title-bar-left">
+              <span class="title-bar-title mas">My personal website</span>
+            </div>
+            <div class="title-bar-right mts">
+              <ul class="menu quiet show-for-medium">
+                {% include nav.html %}
+              </ul>
+              <button class="menu-icon quiet hide-for-medium" type="button" data-toggle="offCanvasRight"><i class="fa fa-bars" aria-hidden="true"></i> MENU</button>
+            </div>
+          </div>
+		  -->
+          <div class="content">
+            <div class="row column">
+
+              {{ content }}
+              
+            </div>
+			
+<!-- Footer -->
+<footer class="footer">
+  <div class="row full-width">
+    <div class="small-12 medium-3 large-4 columns">
+      <i class="fi-laptop"></i>
+      <p id="contact">This website was forked from <a href="https://github.com/daigofuji" target="_blank">Daigo Fujiwara's</a> <a href="https://github.com/daigofuji/jekyll-foundation-6-starter" target="_blank">jekyll-foundation-6-starter Github repository</a>. It is hosted through <a href="">Github pages</a> and uses the <a href="http://zurb.com/building-blocks/article-card" target="_blank">article card</a>, <a href="http://zurb.com/building-blocks/footer" target="_blank">Footer</a> and <a href="http://zurb.com/building-blocks/hero-image-with-text-and-image" target="_blank">Hero Image With Text And Image</a> building blocks. For the timeline, I used <a href="https://timeline.knightlab.com/" target="_blank">TimelineJS</a>.</p>
+    </div>
+    <div class="small-12 medium-3 large-4 columns">
+      <i class="fi-mail"></i>
+      <p>Contact me through this <a href="https://goo.gl/forms/HIZb6McgXeDTseg72" target=_blank">google form</a>.</p>
+    </div>
+    <div class="small-6 medium-3 large-2 columns">
+      <h4>Organizations</h4>
+      <ul class="footer-links">
+        <li><a href="http://www.svyd.org" target="_blank">SVYD</a></li>
+        <li><a href="http://codeforsanjose.com" target="_blank">Code for SJ</a></li>
+        <li><a href="http://cayoungdems.com/" target="_blank">CYD</a></li>
+        <li><a href="http://www.nwpcsiliconvalley.org/" target="_blank">NWPC-SV</a></li>
+        <li><a href="http://opensmc.org/" target="_blank">OpenSMC</a></li>
+      <ul>
+    </div>
+    <div class="small-6 medium-3 large-2 columns">
+      <h4>Follow Me</h4>
+      <ul class="footer-links">
+        <li><a href="https://github.com/EngineerEmily" target="_blank">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/emilyannramos/" target="_blank">Linkedin</a></li>
+        <li><a href="https://twitter.com/EngineerEmily" target="_blank">Twitter</a></li>
+        <li><a href="https://www.flickr.com/photos/133924070@N03/albums" target="_blank">Flickr</a></li>
+        <li><a href="#">YouTube</a></li>
+      <ul>
+    </div>
+  </div>
+</footer>
+          </div><!-- end .content -->
+
+        </div><!-- end .off-canvas-content -->
+      </div><!-- end .off-canvas-wrapper-inner -->
+    </div><!-- end .off-canvas-wrapper -->
+
+
+
+    <!-- Loading JavaScripts
+    ================================================== -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="bower_components/jquery/dist/jquery.js"><\/script>')</script>
+    <script src="bower_components/what-input/what-input.js"></script>
+    <script src="bower_components/foundation-sites/dist/foundation.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- Google Analytics CHANGE THIS TO YOUR UA CODE-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-8418273-8', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+</html>
