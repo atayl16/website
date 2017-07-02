@@ -1,13 +1,13 @@
-name : Foundation5/github pages/Jykill starter
-brand : My Project
-description : This is the description of my project
+name : Emily Ann Ramos
+brand : Web Developer | Civic Tech Advocate | Community Organizer
+description : My life’s work is to enable exceptional people and great institutions to change the world. I am a technology enthusiast and an eternal optimist. As a proud resident of Silicon Valley, the hub of out-of-the-box thinking and innovation, I have a strong technical background and the ability to adapt quickly to new strategies, products, and platforms.
 keyword : 
-url : http://daigofuji.github.io/jekyll-foundation-6-starter/
-email : daigo@daigofujiwara.com
-twitter : DaigoFuji
-github : DaigoFuji
-author : Daigo Fujiwara
-year : 2016
+url : https://www.emily.tech
+email : webmaster@emily.tech
+twitter : EngineerEmily
+github : EngineerEmily
+author : Emily Ramos
+year : 2017
 markdown : kramdown
 exclude :
   - node_modules
