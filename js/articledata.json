@@ -1,4 +1,4 @@
-articlename = 
+var articlename = 
 { 	"What's a fair rent increase in Mountain View?": {
             "website": "https://www.mv-voice.com/news/2017/06/20/whats-a-fair-rent-increase-in-mountain-view",
             "author": "Mark Novak",
